@@ -1,4 +1,3 @@
-
 //  CARRINHO SEGUIDOR DE LINHA 
 //
 //  LOGICA DE MODO AUTOMOTICA VIA BLUETOOTH:
@@ -108,7 +107,7 @@ void segueLinha() {
     return;
   }
 
-  // Erro: pesos -2,-1,0,+1,+2 ? negativo=linha … esq, positivo=linha … dir
+  // Erro: pesos -2,-1,0,+1,+2 
   // Multiplicado por 10 para ter resolu‡Æo inteira
   int erro = ((-2*s[0]) + (-1*s[1]) + (0*s[2]) + (1*s[3]) + (2*s[4])) * 10 / soma;
 
